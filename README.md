@@ -38,30 +38,53 @@ CineMRI-Feature-Extraction/
 MATLAB R2023b (or later)
 Image Processing Toolbox
 
-## Example Workflow
+## Quick Start
+% Load image and mask
+img = mha_read_volume('images.mha');
+mask = mha_read_volume('labels.mha');
 
-1. Load cine-MRI image sequence
-2. Load corresponding tumour segmentation masks
-3. Extract tumour centroid
-4. Compute geometric features
-5. Quantify tumour motion
-6. Generate plots and statistics
-7. Export results to CSV
-8. Create visualization video
+% Extract tumour motion
+motion = extract_motion_signal(mask);
+
+% Plot summary
+plot_motion_summary(motion);
+
+## Example Workflow
+1. Load cine-MRI image sequence.
+2. Load corresponding tumour segmentation masks.
+3. Extract tumour centroid.
+4. Compute geometric features.
+5. Quantify tumour motion.
+6. Generate motion statistics and visualizations.
+7. Export extracted features to CSV.
+8. Create an MP4 visualization of tumour motion.
 
 ## Example Outputs
 
-Tumour overlay visualization
-Motion summary plots
-CSV feature table
-MP4 motion video
+- Tumour overlay visualization
+- Motion summary plots
+- CSV feature table
+- MP4 motion video
+
+---
+
+## Results
+
+### Tumour Overlay
+
+![Tumour Overlay](docs/figures/Tumor_overlay_mask.png)
+
+### Motion Summary
+
+![Motion Summary](docs/figures/motion_summary.png)
+
+Example figures are available in the 'docs/figures' directory.
 
 ## Applications
-
 This toolbox can be used for
 MR-guided radiotherapy research,
 Tumour motion characterization,
- Respiratory motion analysis,
+Respiratory motion analysis,
 Image-guided adaptive radiotherapy,
 Feature extraction for machine learning workflows,
 Educational demonstrations of cine-MRI analysis
@@ -73,6 +96,10 @@ The toolbox was developed and tested using cine-MRI tumour segmentation data.
 
 ## Future Development
 Planned extensions include: Texture feature extraction, Radiomics integration, Deep learning interfaces, Motion prediction models, Advanced visualization tools
+
+## Citation
+If you use this toolbox in your research, please cite:
+-> Aindrila Paul Chowdhury, *CineMRI-Feature-Extraction*, GitHub repository.
 
 ## License
 This project is released under the MIT License.
