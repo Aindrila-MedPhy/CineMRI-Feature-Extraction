@@ -10,14 +10,7 @@ The code has been developed as part of research in image-guided radiotherapy and
 ## Features
 
 Tumour centroid extraction
-Shape feature extraction
-  -> Area
-  -> Perimeter
-  -> Circularity
-  -> Eccentricity
-  -> Major/Minor axis length
-  -> Solidity
-  -> Extent
+Shape feature extraction: Area, Perimeter, Circularity, Eccentricity, Major/Minor axis length, Solidity, Extent
 Tumour motion trajectory analysis
 Motion statistics computation
 Tumour boundary visualization
@@ -66,12 +59,12 @@ MP4 motion video
 ## Applications
 
 This toolbox can be used for
--> MR-guided radiotherapy research
--> Tumour motion characterization
--> Respiratory motion analysis
--> Image-guided adaptive radiotherapy
--> Feature extraction for machine learning workflows
--> Educational demonstrations of cine-MRI analysis
+MR-guided radiotherapy research,
+Tumour motion characterization,
+ Respiratory motion analysis,
+Image-guided adaptive radiotherapy,
+Feature extraction for machine learning workflows,
+Educational demonstrations of cine-MRI analysis
 
 ## Dataset
 The toolbox was developed and tested using cine-MRI tumour segmentation data.
