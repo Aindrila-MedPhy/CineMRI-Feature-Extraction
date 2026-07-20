@@ -9,14 +9,14 @@ The code has been developed as part of research in image-guided radiotherapy and
 
 ## Features
 
-Tumour centroid extraction
+Tumour centroid extraction;
 Shape feature extraction: Area, Perimeter, Circularity, Eccentricity, Major/Minor axis length, Solidity, Extent
-Tumour motion trajectory analysis
-Motion statistics computation
-Tumour boundary visualization
-Motion summary plots
-CSV export of extracted features
-MP4 video generation of tumour motion
+Tumour motion trajectory analysis;
+Motion statistics computation;
+Tumour boundary visualization;
+Motion summary plots;
+CSV export of extracted features;
+MP4 video generation of tumour motion.
 
 ## Repository Structure
 CineMRI-Feature-Extraction/
