@@ -72,11 +72,11 @@ plot_motion_summary(motion);
 
 ### Tumour Overlay
 
-![Tumour Overlay](docs/figures/Tumor_overlay_mask.png)
+![Tumour Overlay](docs/figures/tumor_overlay_mask.jpg)
 
 ### Motion Summary
 
-![Motion Summary](docs/figures/motion_summary.png)
+![Motion Summary](docs/figures/motion_summary.jpg)
 
 Example figures are available in the 'docs/figures' directory.
 
